@@ -1,6 +1,6 @@
 ---
 # POSTER ESSENTIALS
-title: "Quantifying water security using hyperresolution hydrological modelling on top of an Open Data Cube (ODC)"
+title: "Quantifying water security using hyper-resolution hydrological modelling on top of an Open Data Cube (ODC)"
 poster_height: "32in"
 poster_width: "46in"
 font_family: 'Rasa'
@@ -13,16 +13,16 @@ author:
     email: l.f.patino-velasquez2@ncl.ac.uk
   - name: '**Dr. Elizabeth Lewis**'
     affil: 1
-  - name: '**Prof. John Mills**'
+  - name: '**Prof. Jon Mills**'
     affil: 1
 affiliation:
   - num: 1
-    address: School of Civil Engineering and Geosciences, Newcastle University, Newcastle upon Tyne, UK
+    address: School of Engineering, Newcastle University, Newcastle upon Tyne, UK
 
 #COLOUR SCHEME
 primary_colour: '#000d21'
-secondary_colour: '#829cab'
-accent_colour: "#cc0000"
+secondary_colour: '#4c5563'
+accent_colour: "#ffbc00"
 
 # OTHER CUSTOMIZATION
 # Main Section
@@ -30,8 +30,8 @@ main_width: 0.5
 main_fontfamily: "Special Elite"
 main_textcol: "#FFFFFF90"
 main_textsize: "170px"
-main_picwidth: "100%"
-main_findings: " Advancement in <font color='#ffbc00'>hydrological sciences as a data-intensive science</font> needs to explore effective approaches for the use and analysis of the petabytes of existent <font color='#ffbc00'>Eath Observation data</font>  <br><br><br><br>"
+main_picwidth: "130%"
+main_findings: " <font color='#ffffff'>Advancement in</font> <font color='#ffbc00'>hydrological sciences as a data-intensive science</font> <font color='#ffffff'>needs to explore effective approaches for the use and analysis of the petabytes of existing </font><font color='#ffbc00'>Earth Observation data</font>  <br><br>"
 logoright_name: "![](Figures/cdt_banner_trans.png)"
 # Body Section
 body_bgcol: "#ffffff"
@@ -47,6 +47,8 @@ caption_fontsize: "20pt"
 column_padding: "10mm"
 
 bibliography: reference.bib
+csl: apa.csl 
+
 #--Standard Options--#
 output: 
   posterdown::posterdown_betterland:
@@ -56,10 +58,15 @@ output:
     number_sections: true
 ---
 
-# CONTEXT
-Given the current and forecast pressures over regional and global water systems as result of population grow and human activities, water security has been recognised as one of the most significant challenges of the 21st century (@srinivasan2017dynamic). As a result, rigorous quantification of the impacts of climate change on water security have a key role informing water management and policy, and to support the progress in the implementation of the Sustainable Development Goals (SDGs) (@eekhout2018increased). 
+# Context
+Given the current and forecast pressures over regional and global water systems as result of population growth and human activities, water security has been recognised as one of the most significant challenges of the 21st century (@srinivasan2017dynamic). As a result, rigorous quantification of the impacts of climate change on water security have a key role informing water management and policy, and to support the progress in the implementation of the Sustainable Development Goals (SDGs) (@eekhout2018increased). 
 
-# THE RESEARCH
+
+# Aim
+
+To evaluate water security at a regional scale as part of the collaborative laboratories (collaboratories) that form part of the Water Security & Sustainable Development Hub by implementing a hyper-resolution hydrological modelling approach to quantify water scarcity and vulnerability.
+
+# The Research
 
 This research will be at the junction of three areas: hydrological physical
 modelling, satellite Earth observation data and cloud computing technology. During the past
@@ -69,13 +76,9 @@ satellite and sensor technology coupled with the development of cloud computing 
 the advancement of hydrology as a data-intensive science, there is a considerable impetus and
 interest in future research and approaches in the use of these emerging technologies to develop
 new insights that contribute to fundamental aspects of the hydrological sciences.
+<br><br><br><br>
 
-# AIM
-
-To evaluate water security at a regional scale as part of the collaborative laboratories (collaboratories) that form part of the Water Security & Sustainable Development Hub by implementing a hyperresolution hydrological modelling approach to quantify water scarcity and vulnerability.
-
-
-# THE KNOW HOW
+# The Know How
 
 ## Computational Framework
 
