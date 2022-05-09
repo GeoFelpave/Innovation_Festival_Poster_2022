@@ -8,7 +8,6 @@ author:
   - name: '**Luis Felipe Patino Velasquez**'
     affil: 1
     main: true
-    orcid: '0000-0003-2140-308X'
     twitter: felpave
     email: l.f.patino-velasquez2@ncl.ac.uk
   - name: '**Dr. Elizabeth Lewis**'
