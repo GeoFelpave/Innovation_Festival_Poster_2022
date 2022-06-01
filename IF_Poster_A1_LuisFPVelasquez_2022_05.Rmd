@@ -1,0 +1,104 @@
+---
+# POSTER ESSENTIALS
+title: "Quantifying water security using hyper-resolution hydrological modelling on top of an Open Data Cube (ODC)"
+poster_height: "23.4in"
+poster_width: "33.1in"
+font_family: 'Rasa'
+author:
+  - name: '**Luis Felipe Patino Velasquez**'
+    affil: 1
+    main: true
+    twitter: felpave
+    email: l.f.patino-velasquez2@ncl.ac.uk
+  - name: '**Dr. Elizabeth Lewis**'
+    affil: 1
+  - name: '**Prof. Jon Mills**'
+    affil: 1
+affiliation:
+  - num: 1
+    address: School of Engineering, Newcastle University, Newcastle upon Tyne, UK
+
+#COLOUR SCHEME
+primary_colour: '#000d21'
+secondary_colour: '#4c5563'
+accent_colour: "#ffbc00"
+
+# OTHER CUSTOMIZATION
+# Main Section
+main_width: 0.5
+main_fontfamily: "Rasa"
+main_textcol: "#FFFFFF90"
+main_textsize: "135px"
+main_picwidth: "100%"
+main_findings: " <font color='#ffffff'>Advancement in</font> <font color='#ffbc00'>hydrology as a data-intensive science</font> <font color='#ffffff'>needs to explore effective approaches for the use and analysis of the petabytes of existing </font><font color='#ffbc00'>Earth Observation data.</font>  <br><br>"
+logoright_name: "![](Figures/cdt_banner_trans_A1.png)"
+# Body Section
+body_bgcol: "#ffffff"
+body_textsize: "30px"
+reference_textsize: "20px"
+body_textcol: "#000000"
+title_textsize: "55pt"
+author_textsize: "1.115em"
+authorextra_textsize: "28px"
+affiliation_textsize: "20px"
+affiliation_textcol: '#00000080'
+caption_fontsize: "20pt"
+column_padding: "10mm"
+
+bibliography: reference.bib
+csl: apa.csl 
+
+#--Standard Options--#
+output: 
+  posterdown::posterdown_betterland:
+    self_contained: false
+    pandoc_args: --mathjax
+    highlight: espresso
+    number_sections: true
+---
+
+# Context
+Given the current and projected pressures over regional and global water systems as a result of population growth and human activities, water security has been recognised as one of the most significant challenges of the 21st century (@srinivasan2017dynamic). Therefore, rigorous quantification of the impacts of climate change on water security have a key role informing water management and policy, and to support the progress in the implementation of the Sustainable Development Goals (SDGs) (@eekhout2018increased). 
+
+
+# Aim
+
+To evaluate water security at a regional scale as part of the collaborative laboratories (collaboratories) that form part of the Water Security & Sustainable Development Hub by implementing a hyper-resolution hydrological modelling approach to quantify water scarcity and vulnerability.
+
+# The Research
+
+This research will be at the junction of three areas: Physically-based hydrological modelling, satellite Earth observation data and cloud computing technology. During the past
+two decades the development of hydrological predictions at spatial resolution on the order of 1
+km or less has been recognised as a grand challenge in hydrology. The advances in
+satellite and sensor technology, coupled with the development of cloud computing, have enabled
+the advancement of hydrology as a data-intensive science. As a result, there is a considerable impetus and interest in future research and approaches in the use of these emerging technologies to develop new insights that contribute to fundamental aspects of the hydrological sciences.
+<br><br><br><br>
+
+# The Know How
+
+## Computational Framework
+
+### Open Data Cube (ODC){-}
+
+```{r echo=FALSE, fig.cap="ODC storing, sharing and publishing of the data architecture (image modified from https://www.cursosteledeteccion.com/la-iniciativa-global-open-data-cube/ accessed 2022-05-03)", out.width = '100%'}
+knitr::include_graphics("Figures/data_cube_image_trans.png")
+```
+
+
+## Water Security Assessment
+
+### PBSD - SHETRAN{-}
+Simulation of hydrological processes related to blue and green
+water cycles such as rainfall interception by vegetation, evaporation and transpiration, variably
+saturated subsurface flow, and river/aquifer interactions.
+```{r echo=FALSE, fig.cap="Conceptualisation of catchment hydrology in SHETRAN (image designed by Dr. E. Lewis)", out.width = '100%'}
+knitr::include_graphics("Figures/SHETRAN_trans.png")
+```
+
+### Water security analysis{-}
+The impact of climate change on water security will consider the distribution of green water (e.g. soil moisture as a result of infiltration) and blue water (e.g. waterflows through the land surface) storage. <br>
+```{r echo=FALSE, out.width = '100%'}
+knitr::include_graphics("Figures/waterHub_logo.svg")
+```
+
+# References
